@@ -8,6 +8,10 @@ import time as time
 matplotlib.rcParams['xtick.direction'] = 'out'
 matplotlib.rcParams['ytick.direction'] = 'out'
 
+#Referensi:
+#1) Source Code behavior fish menjauhi shark: http://codepen.io/soulwire/full/Ffvlo
+#2) Pseudocode 4 rules untuk behavior flocking dari fish: http://www.kfish.org/boids/pseudocode.html
+
 class fish:
     def __init__(self):
         self.origin=[0 for i in range(2)]
